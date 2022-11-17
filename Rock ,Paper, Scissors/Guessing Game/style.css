@@ -1,0 +1,29 @@
+body{
+    font-family: B yekan;
+    text-align: center;
+}
+.text-box , h3{
+    padding: 20px;
+}
+.main-box{
+    background-color: rgb(216, 214, 214);
+    width: 80%;
+    height: fit-content;
+    margin: 10%;
+}
+#title-text{
+    text-align: center;
+}
+.btn{
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    font-family: B yekan;
+}
+#num-inp{
+    padding: 5px;
+    border-radius: 10px;
+}
+.chance{
+    margin: 20px ; 
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>guessing game</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <div class="main-box" id="main-box">
+        <div class="text-box">
+            <h1 id="title-text">بازی حدس اعداد</h1><br><br>
+            <h3>یک عدد بین 1 تا 20 حدس بزنید</h3>    
+        </div>
+        <div class="inpts">
+            <input type="number" id="num-inp">
+            <button class="btn" id="btn" onclick="game()">حدس بزن</button>
+        </div>
+        <div id="historyarea">
+            <h3 id="test">برو ببینم چیکار میکنی</h3>
+
+        </div>
+        <div class="chance">
+            <span id="chance-point">5</span>
+            <span id="chance-txt">تعداد حدسای باقی مانده</span>
+        </div><br>
+    </div>
+    <script src="myscript.js"></script>
+</body>
+</html>
